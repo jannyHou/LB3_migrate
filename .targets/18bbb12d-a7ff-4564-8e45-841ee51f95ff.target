@@ -1,0 +1,138 @@
+type: bluemix
+server:
+  displayName: US South
+  name: us-south
+  host: us.apiconnect.ibmcloud.com
+org:
+  url: 'https://us.apiconnect.ibmcloud.com/v1/orgs/56f2ec600cf287fc7496e9ee'
+  id: 56f2ec600cf287fc7496e9ee
+  name: slbldcaibmcom-cliautomation
+  status: active
+  orgType: apiProvider
+  displayName: slbld@ca.ibm.com (cliAutomation)
+  externalOrgId: 54f27952-76c1-4746-b0f1-8b12aeb4cfdf
+  externalInviteOverride: 'https://new-console.ng.bluemix.net/apis/catalog/invitation'
+  externalSpaceId: 54f27952-76c1-4746-b0f1-8b12aeb4cfdf
+  externalNativeOrgId: 17796a50-0712-4cd0-bcc1-9b2c99e3e83a
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+  dormant: false
+catalog:
+  id: 56f2ec610cf287fc7496e9f5
+  orgId: 56f2ec600cf287fc7496e9ee
+  name: Sandbox
+  shortName: sb
+  apiCenter: false
+  baseUrl: 'https://api.us.apiconnect.ibmcloud.com/slbldcaibmcom-cliautomation/sb'
+  portalType: ADVANCED
+  portalUrl: 'https://developer.us.apiconnect.ibmcloud.com/slbldcaibmcom-cliautomation/sb'
+  advPortalUrl: 'https://sb-slbldcaibmcom-cliautomation.developer.us.apiconnect.ibmcloud.com'
+  gatewayType: DataPowerGateway
+  idp: 56f2ec610cf287fc7496e9f4
+  idps:
+    - 56f2ec610cf287fc7496e9f4
+  availableRoles:
+    - viewer
+    - developer
+  permissions:
+    policyDeployment_manage:
+      - 56f2ec600cf287fc7496e9ef
+      - 56f2ec610cf287fc7496e9f3
+      - 56f2ec600cf287fc7496e9f0
+      - 56f2ec600cf287fc7496e9f1
+      - 56f2ec600cf287fc7496e9f2
+    productDeployment_stage:
+      - 56f2ec600cf287fc7496e9ef
+      - 56f2ec610cf287fc7496e9f3
+      - 56f2ec600cf287fc7496e9f0
+      - 56f2ec600cf287fc7496e9f1
+      - 56f2ec600cf287fc7496e9f2
+    productDeployment_view:
+      - 56f2ec600cf287fc7496e9ef
+      - 56f2ec610cf287fc7496e9f3
+      - 56f2ec600cf287fc7496e9f0
+      - 56f2ec600cf287fc7496e9f1
+      - 56f2ec600cf287fc7496e9f2
+    productDeployment_manage:
+      - 56f2ec600cf287fc7496e9ef
+      - 56f2ec610cf287fc7496e9f3
+      - 56f2ec600cf287fc7496e9f0
+      - 56f2ec600cf287fc7496e9f1
+      - 56f2ec600cf287fc7496e9f2
+    productDeploymentApprovalRequired: []
+    productDeploymentApproval_stage:
+      - 56f2ec600cf287fc7496e9ef
+    productDeploymentApproval_publish:
+      - 56f2ec600cf287fc7496e9ef
+    productDeploymentApproval_deprecate:
+      - 56f2ec600cf287fc7496e9ef
+    productDeploymentApproval_retire:
+      - 56f2ec600cf287fc7496e9ef
+    productDeploymentApproval_supersede:
+      - 56f2ec600cf287fc7496e9ef
+    productDeploymentApproval_replace:
+      - 56f2ec600cf287fc7496e9ef
+  default: false
+  autoDeploy: true
+  gatewayClusterUrl: /gatewayClusters/PRODAPIC_APIMGMT_GATEWAY
+  restrictedDeployment: false
+  invitationEnabled: true
+  selfSignUpEnabled: true
+  testAppEnabled: true
+  testAppCredentials:
+    clientId: 45fbd496-6743-447d-9e61-a2d3107e1b4e
+    clientSecret: R8uN8sR3eC4fL3lV0sK5hO0gG0yN3oO6pV4uT4xF3uB8yR5oF1
+  createdAt: '2016-03-23T19:20:01.386+0000'
+  updatedAt: '2016-08-08T20:14:31.082+0000'
+  createdBy: slbld@ca.ibm.com
+  updatedBy: avkulkar@us.ibm.com
+  url: >-
+    https://us.apiconnect.ibmcloud.com/v1/orgs/56f2ec600cf287fc7496e9ee/environments/56f2ec610cf287fc7496e9f5
+  orgName: slbldcaibmcom-cliautomation
+space:
+  none: true
+app:
+  metadata:
+    guid: 29629cd6-fd9c-4dd5-8c5e-c11f2c57f6b8
+    url: /v2/apps/29629cd6-fd9c-4dd5-8c5e-c11f2c57f6b8
+    created_at: '2016-11-07T18:22:13Z'
+    updated_at: '2016-11-07T18:23:48Z'
+  entity:
+    name: lbintermediate
+    production: false
+    space_guid: 54f27952-76c1-4746-b0f1-8b12aeb4cfdf
+    stack_guid: ac91d31a-86a3-453b-babf-8d49c9d763fc
+    buildpack: null
+    detected_buildpack: null
+    environment_json: {}
+    memory: 256
+    instances: 1
+    disk_quota: 1024
+    state: STARTED
+    version: f05b9f41-6569-45e2-84ac-722ea5c3a14c
+    command: null
+    console: true
+    debug: null
+    staging_task_id: f2af5c15882448bbbb0397fa7497c03b
+    package_state: FAILED
+    health_check_type: port
+    health_check_timeout: null
+    staging_failed_reason: BuildpackCompileFailed
+    staging_failed_description: App staging failed in the buildpack compile phase
+    diego: false
+    docker_image: null
+    package_updated_at: '2016-11-07T18:23:28Z'
+    detected_start_command: ''
+    enable_ssh: true
+    docker_credentials_json:
+      redacted_message: '[PRIVATE DATA HIDDEN]'
+    ports: null
+    space_url: /v2/spaces/54f27952-76c1-4746-b0f1-8b12aeb4cfdf
+    stack_url: /v2/stacks/ac91d31a-86a3-453b-babf-8d49c9d763fc
+    routes_url: /v2/apps/29629cd6-fd9c-4dd5-8c5e-c11f2c57f6b8/routes
+    events_url: /v2/apps/29629cd6-fd9c-4dd5-8c5e-c11f2c57f6b8/events
+    service_bindings_url: /v2/apps/29629cd6-fd9c-4dd5-8c5e-c11f2c57f6b8/service_bindings
+    route_mappings_url: /v2/apps/29629cd6-fd9c-4dd5-8c5e-c11f2c57f6b8/route_mappings
+id: 18bbb12d-a7ff-4564-8e45-841ee51f95ff
+target: 1.0.0
